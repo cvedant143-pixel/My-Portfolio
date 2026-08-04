@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaTech | Build Websites Faster</title>
+
+    <meta name="description"
+        content="NovaTech helps developers and businesses build modern websites with AI-powered tools.">
+
+    <!-- Favicon -->
+
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="landing.css">
+
+</head>
+
+<body>
+
+
+<canvas id="particles"></canvas>
+   
+
+<!-- ========================= -->
+<!-- LOADING SCREEN -->
+<!-- ========================= -->
+
+<div id="loader">
+
+    <div class="loader-logo">
+        <span>N</span>
+    </div>
+
+    <h2>NovaTech</h2>
+
+    <div class="loading-bar">
+
+        <div class="loading-fill"></div>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- CURSOR GLOW -->
+<!-- ========================= -->
+
+<div id="cursor-glow"></div>
+
+<div id="cursor-dot"></div>
+
+<div id="cursor-ring"></div>
+
+<!-- ========================= -->
+<!-- CURSOR RIPPLE -->
+<!-- ========================= -->
+
+<div id="ripple-container"></div>
+
+<!-- ========================= -->
+<!-- SCROLL PROGRESS -->
+<!-- ========================= -->
+
+<div id="progress-bar"></div>
+
+<!-- ========================= -->
+<!-- PARTICLE BACKGROUND -->
+<!-- ========================= -->
+
+<canvas id="particle-canvas"></canvas>
+<!-- Animated Background -->
+
+<div class="animated-gradient"></div>
+
+<div class="blob blob1"></div>
+
+<div class="blob blob2"></div>
+
+<div class="blob blob3"></div>
+
+<div class="blob blob4"></div>
+
+<div class="blob blob5"></div>
+
+<div class="shape circle"></div>
+
+<div class="shape square"></div>
+
+<div class="shape triangle"></div>
+
+<div class="shape plus"></div>
+
+<!-- ========================= -->
+<!-- NAVBAR -->
+<!-- ========================= -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<img src="images/logo.png" alt="NovaTech Logo">
+
+<span>NovaTech</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home" class="active">Home</a></li>
+
+<li><a href="#features">Features</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#pricing">Pricing</a></li>
+
+<li><a href="#testimonials">Reviews</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="nav-buttons">
+
+<a href="#" class="login-btn magnetic">
+
+Login
+
+</a>
+
+<a href="#" class="primary-btn magnetic">
+
+Get Started
+
+</a>
+
+</div>
+
+<div id="hamburger">
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+</div>
+<button id="theme-toggle" aria-label="Toggle Theme">
+
+<i id="theme-icon" class="fa-solid fa-moon"></i>
+
+</button>
+
+</nav>
+
+</header>
+
+<!-- ========================= -->
+<!-- HERO -->
+<!-- ========================= -->
+
+<section id="home">
+
+<div class="hero-container">
+
+<div class="hero-left">
+
+<p class="hero-tag">
+
+🚀 AI Powered Website Builder
+
+</p>
+
+<h1>
+
+Build Stunning Websites
+
+<span>10x Faster</span>
+
+with NovaTech
+
+</h1>
+
+<p class="hero-description">
+
+Create beautiful, responsive websites using intelligent tools,
+premium templates and modern design—all in one platform.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#" class="primary-btn magnetic">
+
+Start Free
+
+</a>
+
+<a href="#" class="secondary-btn magnetic">
+
+Watch Demo
+
+</a>
+
+</div>
+
+<div class="hero-stats">
+
+<div class="stat-card">
+
+<h2 class="counter" data-target="25000">0</h2>
+
+<p>Users</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 class="counter" data-target="1200">0</h2>
+
+<p>Projects</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 class="counter" data-target="99">0</h2>
+
+<p>Uptime %</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="dashboard-card">
+
+<img src="images/dashboard.png"
+
+alt="Dashboard Preview">
+
+<div class="floating-badge badge2">
+
+⭐ 25K+ Users
+
+</div>
+
+<div class="floating-badge badge3">
+
+🚀 No Coding Required
+
+</div>
+
+<div class="floating-badge badge4">
+
+🔒 Secure Hosting
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="scroll-indicator">
+
+<span></span>
+
+</div>
+
+</section>
+
+<section id="trusted">
+
+<h3>Trusted by</h3>
+
+<div class="logo-slider">
+
+<div class="logo-track">
+
+    <img src="images/google.png" alt="Google">
+
+    <img src="images/microsoft.png" alt="Microsoft">
+
+    <img src="images/spotify.png" alt="Spotify">
+
+    <img src="images/adobe.png" alt="Adobe">
+
+    <img src="images/netflix.png" alt="Netflix">
+
+    <!-- Repeat for seamless scrolling -->
+
+    <img src="images/google.png" alt="Google">
+
+    <img src="images/microsoft.png" alt="Microsoft">
+
+    <img src="images/spotify.png" alt="Spotify">
+
+    <img src="images/adobe.png" alt="Adobe">
+
+    <img src="images/netflix.png" alt="Netflix">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- FEATURES START HERE -->
+<!-- (Continue in Part 2) -->
+<!-- ========================= -->
+ <!-- ========================= -->
+<!-- FEATURES -->
+<!-- ========================= -->
+
+<section id="features">
+
+    <div class="section-title">
+
+        <p>Why Choose NovaTech</p>
+
+        <h2>Everything You Need To Build Amazing Websites</h2>
+
+    </div>
+
+    <div class="features-grid">
+
+        <div class="feature-card tilt-card">
+
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+            <h3>AI Website Builder</h3>
+
+            <p>Create beautiful websites in minutes using powerful AI assistance.</p>
+
+        </div>
+
+        <div class="feature-card tilt-card">
+
+            <i class="fa-solid fa-layer-group"></i>
+
+            <h3>Premium Templates</h3>
+
+            <p>Choose from hundreds of modern, responsive templates.</p>
+
+        </div>
+
+        <div class="feature-card tilt-card">
+
+            <i class="fa-solid fa-code"></i>
+
+            <h3>Clean Code</h3>
+
+            <p>Generate optimized HTML, CSS and JavaScript automatically.</p>
+
+        </div>
+
+        <div class="feature-card tilt-card">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            <h3>Lightning Fast</h3>
+
+            <p>Experience blazing-fast loading speeds and optimized performance.</p>
+
+        </div>
+
+        <div class="feature-card tilt-card">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
+            <h3>Secure Hosting</h3>
+
+            <p>Enterprise-level security keeps your website safe and reliable.</p>
+
+        </div>
+
+        <div class="feature-card tilt-card">
+
+            <i class="fa-solid fa-chart-line"></i>
+
+            <h3>Advanced Analytics</h3>
+
+            <p>Track visitors, conversions and business growth in real time.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="how-it-works">
+
+<div class="section-title">
+
+<p>How It Works</p>
+
+<h2>Create Your Website In Four Easy Steps</h2>
+
+</div>
+
+<div class="timeline">
+
+<div class="step">
+
+<div class="step-icon">
+
+1
+
+</div>
+
+<h3>Sign Up</h3>
+
+<p>Create your free account in seconds.</p>
+
+</div>
+
+<div class="step">
+
+<div class="step-icon">
+
+2
+
+</div>
+
+<h3>Choose Template</h3>
+
+<p>Select a professionally designed template.</p>
+
+</div>
+
+<div class="step">
+
+<div class="step-icon">
+
+3
+
+</div>
+
+<h3>Customize</h3>
+
+<p>Edit text, colors and layouts easily.</p>
+
+</div>
+
+<div class="step">
+
+<div class="step-icon">
+
+4
+
+</div>
+
+<h3>Publish</h3>
+
+<p>Launch your website instantly.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- STATISTICS -->
+<!-- ========================= -->
+
+<section id="stats">
+
+    <div class="stats-container">
+
+        <div class="stat-box">
+
+            <h2 class="counter" data-target="25000">0</h2>
+
+            <p>Happy Users</p>
+
+        </div>
+
+        <div class="stat-box">
+
+            <h2 class="counter" data-target="1200">0</h2>
+
+            <p>Projects Completed</p>
+
+        </div>
+
+        <div class="stat-box">
+
+            <h2 class="counter" data-target="99">0</h2>
+
+            <p>Customer Satisfaction</p>
+
+        </div>
+
+        <div class="stat-box">
+
+            <h2 class="counter" data-target="150">0</h2>
+
+            <p>Countries Served</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- ABOUT -->
+<!-- ========================= -->
+
+<section id="about">
+
+    <div class="about-container">
+
+        <div class="about-left">
+
+            <img src="images/about.png" alt="About NovaTech">
+
+        </div>
+
+        <div class="about-right">
+
+            <p class="section-tag">
+
+                ABOUT US
+
+            </p>
+
+            <h2>
+
+                We Build The Future Of Website Creation
+
+            </h2>
+
+            <p>
+
+                NovaTech combines artificial intelligence with modern web technologies
+                to help businesses and developers create professional websites
+                without unnecessary complexity.
+
+            </p>
+
+            <div class="about-list">
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    AI-powered automation
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Responsive by default
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Fast deployment
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Secure cloud hosting
+
+                </div>
+
+            </div>
+
+            <a href="#" class="primary-btn magnetic">
+
+                Learn More
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- TESTIMONIALS START HERE -->
+<!-- Continue in Part 3 -->
+<!-- ========================= -->
+ <!-- ========================= -->
+<!-- TESTIMONIALS -->
+<!-- ========================= -->
+
+<section id="testimonials">
+
+    <div class="section-title">
+
+        <p>Testimonials</p>
+
+        <h2>What Our Customers Say</h2>
+
+    </div>
+
+    <div class="testimonial-slider">
+
+        <div class="testimonial-card tilt-card">
+
+            <img src="images/user1.jpg" alt="User 1">
+
+            <h3>William Johnson</h3>
+
+            <span>UI/UX Designer</span>
+
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+
+            <p>
+                NovaTech completely transformed the way I build websites.
+                The AI tools save me hours every week.
+            </p>
+
+        </div>
+
+        <div class="testimonial-card tilt-card">
+
+            <img src="images/user2.jpg" alt="User 2">
+
+            <h3>Riya Yadav</h3>
+
+            <span>Startup Founder</span>
+
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+
+            <p>
+                Beautiful templates, amazing speed and fantastic support.
+                Highly recommended for every business.
+            </p>
+
+        </div>
+
+        <div class="testimonial-card tilt-card">
+
+            <img src="images/user3.jpg" alt="User 3">
+
+            <h3>Chris Wilson</h3>
+
+            <span>Freelancer</span>
+
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <p>
+                The easiest website builder I've ever used.
+                My clients absolutely love the final results.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- PRICING -->
+<!-- ========================= -->
+
+<section id="pricing">
+
+    <div class="section-title">
+
+        <p>Pricing</p>
+
+        <h2>Choose Your Perfect Plan</h2>
+
+    </div>
+
+    <div class="pricing-grid">
+
+        <div class="pricing-card tilt-card">
+
+            <h3>Starter</h3>
+
+            <h2>$0</h2>
+
+            <p>Perfect for beginners</p>
+
+            <ul>
+
+                <li><i class="fa-solid fa-check"></i> 3 Projects</li>
+
+                <li><i class="fa-solid fa-check"></i> Basic Templates</li>
+
+                <li><i class="fa-solid fa-check"></i> Community Support</li>
+
+            </ul>
+
+            <a href="#" class="primary-btn magnetic">
+
+                Get Started
+
+            </a>
+
+        </div>
+
+        <div class="pricing-card popular tilt-card">
+
+            <span class="badge">
+
+                Most Popular
+
+            </span>
+
+            <h3>Pro</h3>
+
+            <h2>$19</h2>
+
+            <p>Best for professionals</p>
+
+            <ul>
+
+                <li><i class="fa-solid fa-check"></i> Unlimited Projects</li>
+
+                <li><i class="fa-solid fa-check"></i> Premium Templates</li>
+
+                <li><i class="fa-solid fa-check"></i> AI Assistant</li>
+
+                <li><i class="fa-solid fa-check"></i> Priority Support</li>
+
+            </ul>
+
+            <a href="#" class="primary-btn magnetic">
+
+                Start Pro
+
+            </a>
+
+        </div>
+
+        <div class="pricing-card tilt-card">
+
+            <h3>Enterprise</h3>
+
+            <h2>$49</h2>
+
+            <p>For large businesses</p>
+
+            <ul>
+
+                <li><i class="fa-solid fa-check"></i> Unlimited Everything</li>
+
+                <li><i class="fa-solid fa-check"></i> Dedicated Manager</li>
+
+                <li><i class="fa-solid fa-check"></i> Cloud Hosting</li>
+
+                <li><i class="fa-solid fa-check"></i> 24/7 Support</li>
+
+            </ul>
+
+            <a href="#" class="primary-btn magnetic">
+
+                Contact Sales
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- FAQ -->
+<!-- ========================= -->
+
+<section id="faq">
+
+    <div class="section-title">
+
+        <p>Frequently Asked Questions</p>
+
+        <h2>Got Questions?</h2>
+
+    </div>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                Is NovaTech beginner friendly?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+
+                    Absolutely. NovaTech is designed for beginners and professionals alike.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                Can I publish my own website?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+
+                    Yes! You can publish your website using your own domain or our hosting.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                Do you offer customer support?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+
+                    Yes, we provide community support, priority support, and enterprise support.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                Can I cancel anytime?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+
+                    Yes. You can cancel your subscription whenever you want.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- NEWSLETTER STARTS HERE -->
+<!-- Continue in Part 4 -->
+<!-- ========================= -->
+ <!-- ========================= -->
+<!-- NEWSLETTER -->
+<!-- ========================= -->
+
+<section id="newsletter">
+
+    <div class="newsletter-container">
+
+        <h2>Stay Updated</h2>
+
+        <p>
+
+            Subscribe to receive product updates, new templates,
+            and exclusive offers.
+
+        </p>
+
+        <form class="newsletter-form">
+
+            <input type="email"
+                   placeholder="Enter your email"
+                   required>
+
+            <button
+                    type="submit"
+                    class="primary-btn magnetic">
+
+                Subscribe
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- CONTACT -->
+<!-- ========================= -->
+
+<section id="contact">
+
+    <div class="section-title">
+
+        <p>Contact Us</p>
+
+        <h2>Let's Build Something Amazing</h2>
+
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Get In Touch</h3>
+
+            <p>
+
+                We'd love to hear about your project.
+                Send us a message and we'll get back
+                to you as soon as possible.
+
+            </p>
+
+            <div class="info-box">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <span>New York, United States</span>
+
+            </div>
+
+            <div class="info-box">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <span>support@novatech.com</span>
+
+            </div>
+
+            <div class="info-box">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <span>+1 (123) 456-7890</span>
+
+            </div>
+
+        </div>
+
+        <form class="contact-form">
+
+            <input
+                   type="text"
+                   placeholder="Your Name"
+                   required>
+
+            <input
+                   type="email"
+                   placeholder="Email Address"
+                   required>
+
+            <input
+                   type="text"
+                   placeholder="Subject"
+                   required>
+
+            <textarea
+                      rows="6"
+                      placeholder="Your Message"
+                      required></textarea>
+
+            <button
+                    type="submit"
+                    class="primary-btn magnetic">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+
+            <img src="images/logo.png"
+                 alt="NovaTech Logo">
+
+            <h2>NovaTech</h2>
+
+            <p>
+
+                Build modern websites with
+                the power of AI.
+
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Company</h3>
+
+            <a href="#home">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#features">Features</a>
+
+            <a href="#pricing">Pricing</a>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Support</h3>
+
+            <a href="#">Help Center</a>
+
+            <a href="#">Documentation</a>
+
+            <a href="#">Privacy Policy</a>
+
+            <a href="#">Terms of Service</a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-twitter"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © 2026 NovaTech. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+<div id="chat-widget">
+
+<button id="chat-btn">
+
+<i class="fa-solid fa-comment"></i>
+
+</button>
+
+<div id="chat-box">
+
+<h3>
+
+👋 Hi there!
+
+</h3>
+
+<p>
+
+How can we help?
+
+</p>
+
+<button class="primary-btn">
+
+Start Chat
+
+</button>
+
+</div>
+
+</div>
+
+<!-- ========================= -->
+<!-- BACK TO TOP BUTTON -->
+<!-- ========================= -->
+
+<button id="backToTop">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- ========================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================= -->
+
+<script src="landing.js"></script>
+
+</body>
+</html>

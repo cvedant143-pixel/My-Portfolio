@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Vedant Portfolio</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+
+            height:100vh;
+
+            display:flex;
+
+            justify-content:center;
+
+            align-items:center;
+
+            background:linear-gradient(135deg,#08111f,#0d1b2a,#12253d);
+
+        }
+
+        .container{
+
+            width:380px;
+
+            background:rgba(255,255,255,.08);
+
+            backdrop-filter:blur(15px);
+
+            border-radius:20px;
+
+            padding:40px;
+
+            border:1px solid rgba(255,255,255,.15);
+
+            box-shadow:0 0 30px rgba(0,0,0,.4);
+
+            text-align:center;
+
+        }
+
+        h1{
+
+            color:#4fc3ff;
+
+            margin-bottom:30px;
+
+        }
+
+        input{
+
+            width:100%;
+
+            padding:15px;
+
+            margin:12px 0;
+
+            border:none;
+
+            border-radius:10px;
+
+            background:#13233b;
+
+            color:white;
+
+            font-size:16px;
+
+            outline:none;
+
+        }
+
+        input::placeholder{
+
+            color:#b9c9dc;
+
+        }
+
+        button{
+
+            width:100%;
+
+            padding:15px;
+
+            margin-top:20px;
+
+            border:none;
+
+            border-radius:50px;
+
+            background:#2196f3;
+
+            color:white;
+
+            font-size:17px;
+
+            font-weight:bold;
+
+            cursor:pointer;
+
+            transition:.3s;
+
+        }
+
+        button:hover{
+
+            background:#4fc3ff;
+
+            transform:translateY(-3px);
+
+        }
+
+        .back{
+
+            display:inline-block;
+
+            margin-top:25px;
+
+            color:#4fc3ff;
+
+            text-decoration:none;
+
+        }
+
+        .back:hover{
+
+            text-decoration:underline;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Login</h1>
+
+        <form>
+
+            <input type="text" placeholder="Username" required>
+
+            <input type="password" placeholder="Password" required>
+
+            <button type="submit">Login</button>
+
+        </form>
+
+        <a href="index.html" class="back">← Back to Portfolio</a>
+
+    </div>
+
+</body>
+
+</html>
