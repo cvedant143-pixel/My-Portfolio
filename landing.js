@@ -5,7 +5,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     console.log("NovaTech Loaded 🚀");
-});
+}
 
     /* ==========================================
             LOADING SCREEN
@@ -221,10 +221,13 @@ if (toggle) {
         }
 
     }
+}
 
     toggle.addEventListener("click", () => {
 
         document.body.classList.toggle("light-mode");
+    });
+
 
         if (document.body.classList.contains("light-mode")) {
 
@@ -234,6 +237,7 @@ if (toggle) {
                 themeIcon.classList.remove("fa-moon");
                 themeIcon.classList.add("fa-sun");
             }
+
 
         } else {
 
@@ -245,8 +249,6 @@ if (toggle) {
             }
 
         }
-
-        });
          /* ==========================================
             MOBILE HAMBURGER MENU
     ========================================== */
@@ -455,8 +457,6 @@ if (chatBtn && chatBox) {
         chatBox.classList.toggle("show");
 
     });
-
-}
     /* ==========================================
             INTERACTIVE PARTICLE NETWORK
     ========================================== */
@@ -508,9 +508,7 @@ if (chatBtn && chatBox) {
 
         }
 
-        let particleAmount = window.innerWidth < 768 ? 40 : 90;
-
-for(let i=0;i<particleAmount;i++){
+        for (let i = 0; i < 90; i++) {
             particles.push(new Particle());
         }
 
@@ -661,7 +659,6 @@ for(let i=0;i<particleAmount;i++){
         console.log("Animations Resumed");
 
     });
-    
 
     console.log("NovaTech Premium Effects Enabled ✨");
 };

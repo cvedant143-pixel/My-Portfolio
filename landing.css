@@ -1375,7 +1375,7 @@ header{
 
 .price-card:hover{
 
-    transform:translateY(-14px);
+    transform:translate Y(-14px);
 
     box-shadow:0 30px 70px rgba(0,0,0,.45);
 
@@ -1383,7 +1383,7 @@ header{
 
 .popular{
 
-    border:2px solid var(--cyan);
+    border:none;
 
     transform:scale(1.04);
 
